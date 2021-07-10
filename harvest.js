@@ -26,12 +26,13 @@ const AUTO_CLICK = true;
 
       var count = 0;
 
-      while(count < 500) {
-          await sleep(25)
+      while(count < 100) {
+        count++
+          await sleep(75)
           loginButton.click();
       }
 
-      alert("1000 cookies have been generated");
+      alert(count + " cookies have been generated");
   });
 })();
 
