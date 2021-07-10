@@ -25,7 +25,7 @@
 
       while(count < 100) {
         count++
-          await sleep(75)
+          await sleep(25)
           loginButton.click();
       }
 
