@@ -11,9 +11,6 @@
 
 "use strict";
 
-// Auto click on login button
-const AUTO_CLICK = true;
-
 (async function () {
   document.addEventListener("DOMContentLoaded", async function () {
       await waitForLoginButton();
